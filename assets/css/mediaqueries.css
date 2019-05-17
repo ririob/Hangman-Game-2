@@ -1,10 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
-
-.selector-for-some-widget {
-    box-sizing: content-box;
-}
-
-html, body{
+/* MEDIA QUERY */
+@media only screen and (max-width: 450px) {
+    html, body{
     height: 100%;
     font-weight: 800;
 }
@@ -15,12 +11,12 @@ body{
 }
 
 main{
-    background: #030321;
+    background: #000;
 }
 svg{
     display: block;
     font: 10.5em 'Montserrat';
-    width: 960px;
+    width: 370px;
     height: 200px;
     margin: 0 auto;
 }
@@ -66,4 +62,6 @@ svg{
 #intro-cont{
     position: relative;
     bottom: 50px;
+    right: 23px;
+}
 }
