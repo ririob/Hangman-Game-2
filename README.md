@@ -1,3 +1,3 @@
 # Hangman-Game-2
-# Create html page
-# Style with css
+<!-- # Create html page -->
+<!-- # Style with css -->

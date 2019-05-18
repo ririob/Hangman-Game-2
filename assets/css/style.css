@@ -80,3 +80,36 @@ svg{
     position: relative;
     bottom: 40px;
 }
+
+/* styling for grid div */
+.grid-div{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 30px;
+    position: relative;
+    bottom: 100px;
+}
+.grid-1{
+    background: #bd0034;
+    padding: 20px;
+}
+.grid-2{
+    background: #fdb731;
+    padding: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+.image-div{
+    position: relative;
+    left: 80px;
+}
+#game{
+    position: relative;
+    left: 60px;
+    top: 10px;
+    font-weight: 700;
+}
+.grid-1-img{
+    width: 200px;
+}
