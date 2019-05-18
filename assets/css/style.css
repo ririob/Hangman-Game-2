@@ -67,3 +67,16 @@ svg{
     position: relative;
     bottom: 50px;
 }
+
+/* styling for the sub heading */
+.first-heading{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: 'Verdana';
+    padding: 30px;
+    color: #fdb731;
+    text-align: center;
+    font-weight: 800;
+    position: relative;
+    bottom: 40px;
+}

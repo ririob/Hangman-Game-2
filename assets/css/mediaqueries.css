@@ -1,22 +1,9 @@
 /* MEDIA QUERY */
 @media only screen and (max-width: 450px) {
-    html, body{
-    height: 100%;
-    font-weight: 800;
-}
-
-body{
-    background: #030321;
-    font-family: "Open sans";
-}
-
-main{
-    background: #000;
-}
 svg{
     display: block;
     font: 10.5em 'Montserrat';
-    width: 370px;
+    width: 380px;
     height: 200px;
     margin: 0 auto;
 }
@@ -59,9 +46,22 @@ svg{
     100% {stroke-dashoffset: -35%}
 }
 
-#intro-cont{
+.header-items{
     position: relative;
-    bottom: 50px;
+    bottom: 38px;
     right: 23px;
+}
+
+/* styling for the sub heading */
+.first-heading{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Verdana';
+    padding: 30px;
+    color: #fdb731;
+    text-align: center;
+    font-weight: 800;
+    position: relative;
+    bottom: 40px;
 }
 }
